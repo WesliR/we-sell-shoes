@@ -129,7 +129,7 @@ const subBtn = document.getElementById('sub-btn');
 
 //navbar button click makes the popup appear
 subBtn.addEventListener("click", () => {
-  popUpLayer.style.display = 'flex';
+  popUpLayer.style.display = 'contents';
 })
 
 //close model click makes the popup disappear
